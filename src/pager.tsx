@@ -468,7 +468,7 @@ function Pager({
                   [targetDimension]: totalDimension,
                   transform: [{ [targetTransform]: containerTranslation }],
                 }}
-                accessibilityRole="tablist"
+                accessibilityRole="TABLIST"
               >
                 {renderChildren()}
               </Animated.View>
